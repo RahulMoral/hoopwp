@@ -1,0 +1,89 @@
+/*
+Theme Name: hoop
+Description: This theme is a derivative of Rebel Brown, custom coded for the client.
+Author: Chirag
+Version: 1.0
+*/
+@font-face {
+	font-family: 'GreycliffCF-Bold';
+	src: url('fonts/greycliff-cf-bold.eot');
+	src: url('fonts/greycliff-cf-bold.eot?#iefix') format('embedded-opentype'),
+             url('fonts/greycliff-cf-bold.woff2') format('woff2'),
+	     url('fonts/greycliff-cf-bold.woff') format('woff'),
+	     url('fonts/greycliff-cf-bold.ttf') format('truetype'),
+	     url('fonts/greycliff-cf-bold.svg#youworkforthem') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GreycliffCF-DemiBold';
+	src: url('fonts/greycliff-cf-demi-bold.eot');
+	src: url('fonts/greycliff-cf-demi-bold.eot?#iefix') format('embedded-opentype'),
+             url('fonts/greycliff-cf-demi-bold.woff2') format('woff2'),
+	     url('fonts/greycliff-cf-demi-bold.woff') format('woff'),
+	     url('fonts/greycliff-cf-demi-bold.ttf') format('truetype'),
+	     url('fonts/greycliff-cf-demi-bold.svg#youworkforthem') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GreycliffCF-ExtraBold';
+	src: url('fonts/greycliff-cf-extra-bold.eot');
+	src: url('fonts/greycliff-cf-extra-bold.eot?#iefix') format('embedded-opentype'),
+             url('fonts/greycliff-cf-extra-bold.woff2') format('woff2'),
+	     url('fonts/greycliff-cf-extra-bold.woff') format('woff'),
+	     url('fonts/greycliff-cf-extra-bold.ttf') format('truetype'),
+	     url('fonts/greycliff-cf-extra-bold.svg#youworkforthem') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GreycliffCF-Heavy';
+	src: url('fonts/greycliff-cf-heavy.eot');
+	src: url('fonts/greycliff-cf-heavy.eot?#iefix') format('embedded-opentype'),
+             url('fonts/greycliff-cf-heavy.woff2') format('woff2'),
+	     url('fonts/greycliff-cf-heavy.woff') format('woff'),
+	     url('fonts/greycliff-cf-heavy.ttf') format('truetype'),
+	     url('fonts/greycliff-cf-heavy.svg#youworkforthem') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GreycliffCF-Light';
+	src: url('fonts/greycliff-cf-light.eot');
+	src: url('fonts/greycliff-cf-light.eot?#iefix') format('embedded-opentype'),
+             url('fonts/greycliff-cf-light.woff2') format('woff2'),
+	     url('fonts/greycliff-cf-light.woff') format('woff'),
+	     url('fonts/greycliff-cf-light.ttf') format('truetype'),
+	     url('fonts/greycliff-cf-light.svg#youworkforthem') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GreycliffCF-Medium';
+	src: url('fonts/greycliff-cf-medium.eot');
+	src: url('fonts/greycliff-cf-medium.eot?#iefix') format('embedded-opentype'),
+             url('fonts/greycliff-cf-medium.woff2') format('woff2'),
+	     url('fonts/greycliff-cf-medium.woff') format('woff'),
+	     url('fonts/greycliff-cf-medium.ttf') format('truetype'),
+	     url('fonts/greycliff-cf-medium.svg#youworkforthem') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GreycliffCF-Regular';
+	src: url('fonts/greycliff-cf-regular.eot');
+	src: url('fonts/greycliff-cf-regular.eot?#iefix') format('embedded-opentype'),
+             url('fonts/greycliff-cf-regular.woff2') format('woff2'),
+	     url('fonts/greycliff-cf-regular.woff') format('woff'),
+	     url('fonts/greycliff-cf-regular.ttf') format('truetype'),
+	     url('fonts/greycliff-cf-regular.svg#youworkforthem') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

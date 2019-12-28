@@ -1,0 +1,25 @@
+{
+  "name": "hoop",
+  "version": "1.0.0",
+  "description": "WordPress Development",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.7.3",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.0.2"
+  },
+  "browserslist": [
+    "last 71 version"
+  ],
+  "keywords": [
+    "HTML5",
+    "CSS3",
+    "WordPress"
+  ],
+  "author": "Rahul Moral",
+  "license": "ISC"
+}
