@@ -1,0 +1,1332 @@
+@import "mixin";
+/* Dashboard */
+#user-registration.user-registration.vertical .user-registration-MyAccount-navigation {
+    background-color: #80a0b4;
+    -webkit-flex-basis: 300px;
+        -ms-flex-preferred-size: 300px;
+            flex-basis: 300px;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+       -moz-box-flex: 0;
+        -ms-flex-positive: 0;
+            flex-grow: 0;
+    -webkit-flex-shrink: 0;
+        -ms-flex-negative: 0;
+            flex-shrink: 0;
+    max-width: 300px; }
+
+  @media (max-width: 767px) {
+    #user-registration.user-registration.vertical .user-registration-MyAccount-navigation {
+      -webkit-flex-basis: 100%;
+          -ms-flex-preferred-size: 100%;
+              flex-basis: 100%;
+      max-width: 100%; } }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-navigation ul .user-registration-MyAccount-navigation-link {
+    background-color: transparent;
+    border: none; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-navigation ul .user-registration-MyAccount-navigation-link a {
+    background-color: transparent;
+    border-left: 4px solid transparent;
+    color: white;
+    font-family: 'GreycliffCF-Medium', sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    position: relative;
+    text-transform: capitalize;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-navigation ul .user-registration-MyAccount-navigation-link a:hover {
+    background-color: rgba(255, 255, 255, 0.3); }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-navigation ul .user-registration-MyAccount-navigation-link.is-active {
+    background-color: transparent; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-navigation ul .user-registration-MyAccount-navigation-link.is-active a {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-left-color: #e33a5c;
+    font-family: 'GreycliffCF-Bold', sans-serif;
+    font-weight: normal; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content {
+    -webkit-flex-basis: -webkit-calc(100% - 300px);
+        -ms-flex-preferred-size: calc(100% - 300px);
+            flex-basis: -moz-calc(100% - 300px);
+            flex-basis: calc(100% - 300px);
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+       -moz-box-flex: 0;
+        -ms-flex-positive: 0;
+            flex-grow: 0;
+    -webkit-flex-shrink: 0;
+        -ms-flex-negative: 0;
+            flex-shrink: 0;
+    max-width: -webkit-calc(100% - 300px);
+    max-width: -moz-calc(100% - 300px);
+    max-width: calc(100% - 300px);
+    padding: 0 0 0 80px; }
+
+  @media (max-width: 1399px) {
+    #user-registration.user-registration.vertical .user-registration-MyAccount-content {
+      padding-left: 30px; } }
+
+  @media (max-width: 767px) {
+    #user-registration.user-registration.vertical .user-registration-MyAccount-content {
+      -webkit-flex-basis: 100%;
+          -ms-flex-preferred-size: 100%;
+              flex-basis: 100%;
+      max-width: 100%;
+      padding-left: 0;
+      padding-top: 30px; } }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content h2 {
+    color: #5b6770;
+    font-size: 30px;
+    font-family: 'GreycliffCF-ExtraBold', sans-serif;
+    font-weight: normal;
+    line-height: 1;
+    margin-bottom: 24px; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .user-registration-profile-header {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: rgba(128, 160, 180, 0.1);
+    -webkit-border-radius: 3px;
+       -moz-border-radius: 3px;
+            border-radius: 3px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    margin-bottom: 15px;
+    padding: 20px; }
+
+  @media (max-width: 767px) {
+    #user-registration.user-registration.vertical .user-registration-MyAccount-content .user-registration-profile-header {
+      padding: 15px; } }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .user-registration-profile-header .user-registration-img-container {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+            border-radius: 50%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-basis: 48px;
+        -ms-flex-preferred-size: 48px;
+            flex-basis: 48px;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+       -moz-box-flex: 0;
+        -ms-flex-positive: 0;
+            flex-grow: 0;
+    -webkit-flex-shrink: 0;
+        -ms-flex-negative: 0;
+            flex-shrink: 0;
+    height: 48px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+       -moz-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0;
+    max-width: 48px;
+    overflow: hidden;
+    position: relative; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .user-registration-profile-header .user-registration-img-container img {
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+       -moz-box-flex: 0;
+        -ms-flex-positive: 0;
+            flex-grow: 0;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 100%; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .user-registration-profile-header header {
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+       -moz-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+       -moz-box-orient: vertical;
+       -moz-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-flex-basis: -webkit-calc(100% - 48px);
+        -ms-flex-preferred-size: calc(100% - 48px);
+            flex-basis: -moz-calc(100% - 48px);
+            flex-basis: calc(100% - 48px);
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+       -moz-box-flex: 0;
+        -ms-flex-positive: 0;
+            flex-grow: 0;
+    -webkit-flex-shrink: 0;
+        -ms-flex-negative: 0;
+            flex-shrink: 0;
+    max-width: -webkit-calc(100% - 48px);
+    max-width: -moz-calc(100% - 48px);
+    max-width: calc(100% - 48px);
+    padding-left: 20px; }
+
+  @media (max-width: 767px) {
+    #user-registration.user-registration.vertical .user-registration-MyAccount-content .user-registration-profile-header header {
+      padding-left: 10px; } }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .user-registration-profile-header header h3 {
+    color: #3c4146;
+    font-size: 22px;
+    font-family: 'GreycliffCF-Bold', sans-serif;
+    font-weight: normal;
+    line-height: 30px;
+    margin: 0; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .user-registration-profile-header header .user-registration-nick-name {
+    color: #3c4146;
+    font-size: 16px;
+    font-family: 'GreycliffCF-Medium', sans-serif;
+    font-weight: normal;
+    line-height: 18px; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .user-registration-profile-header header .button-group {
+    margin-bottom: 0; }
+
+  @media (max-width: 991px) {
+    #user-registration.user-registration.vertical .user-registration-MyAccount-content .user-registration-profile-header header .button-group {
+      margin-top: 10px; } }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .user-registration-profile-header header .button-group .profile-pic-upload-button {
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 0; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .user-registration-profile-header header .button-group .profile-pic-upload-button .profile-pic-upload {
+    display: none; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .user-registration-profile-header header .button-group .profile-pic-upload-button span {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: white;
+    -webkit-border-radius: 3px;
+       -moz-border-radius: 3px;
+            border-radius: 3px;
+    -webkit-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.04);
+       -moz-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.04);
+            box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.04);
+    color: #e33a5b;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+       -moz-box-orient: horizontal;
+       -moz-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    font-size: 14px;
+    font-family: 'GreycliffCF-Bold', sans-serif;
+    font-weight: normal;
+    height: 35px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+       -moz-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    line-height: 1;
+    text-transform: capitalize;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+    width: 120px; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .user-registration-profile-header header .button-group .profile-pic-upload-button span:hover {
+    background-color: #e33a5b;
+    color: white; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .user-registration-profile-header header .button-group .button.profile-pic-remove {
+    background-color: white;
+    border: none;
+    -webkit-border-radius: 3px;
+       -moz-border-radius: 3px;
+            border-radius: 3px;
+    -webkit-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.04);
+       -moz-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.04);
+            box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.04);
+    color: #e33a5b;
+    font-size: 14px;
+    font-family: 'GreycliffCF-Bold', sans-serif;
+    font-weight: normal;
+    height: 35px;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    text-transform: capitalize;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+    width: 120px; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .user-registration-profile-header header .button-group .button.profile-pic-remove:hover {
+    background-color: #e33a5b;
+    color: white; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .user-registration-tips-group {
+    margin-bottom: 40px; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .user-registration-tips-group span {
+    color: #5b6770;
+    font-size: 16px;
+    font-family: 'GreycliffCF-Medium', sans-serif;
+    font-weight: normal;
+    line-height: 24px; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .user-registration-tips-group span a {
+    color: #e33a5b;
+    font-family: 'GreycliffCF-Bold', sans-serif;
+    font-weight: normal;
+    text-transform: capitalize;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .user-registration-tips-group span a:hover {
+    text-decoration: underline; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .user-registration-tips-group .user-registration-tips {
+    color: #5b6770;
+    font-size: 16px;
+    font-family: 'GreycliffCF-Medium', sans-serif;
+    font-weight: normal;
+    line-height: 24px; }
+
+  @media (max-width: 991px) {
+    #user-registration.user-registration.vertical .user-registration-MyAccount-content .user-registration-tips-group .user-registration-tips {
+      margin-bottom: 10px;
+      margin-left: auto; } }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .user-registration-profile-fields__field-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+       -moz-box-orient: horizontal;
+       -moz-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin: 0; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .user-registration-profile-fields__field-wrapper .ur-form-row {
+    display: block;
+    -webkit-flex-basis: 100%;
+        -ms-flex-preferred-size: 100%;
+            flex-basis: 100%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+       -moz-box-flex: 0;
+        -ms-flex-positive: 0;
+            flex-grow: 0;
+    -webkit-flex-shrink: 0;
+        -ms-flex-negative: 0;
+            flex-shrink: 0;
+    max-width: 100%; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .user-registration-profile-fields__field-wrapper .ur-form-row .ur-form-grid {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding: 0;
+    width: auto !important; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .user-registration-profile-fields__field-wrapper .ur-form-row .ur-form-grid .hoop-changed-email-verify {
+    -webkit-flex-basis: 100%;
+        -ms-flex-preferred-size: 100%;
+            flex-basis: 100%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+       -moz-box-flex: 0;
+        -ms-flex-positive: 0;
+            flex-grow: 0;
+    -webkit-flex-shrink: 0;
+        -ms-flex-negative: 0;
+            flex-shrink: 0;
+    max-width: 100%;
+    padding-left: 10px;
+    padding-right: 10px; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .user-registration-profile-fields__field-wrapper .ur-form-row .ur-form-grid .hoop-changed-email-verify .ur-field-item {
+    -webkit-flex-basis: 100%;
+        -ms-flex-preferred-size: 100%;
+            flex-basis: 100%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+       -moz-box-flex: 0;
+        -ms-flex-positive: 0;
+            flex-grow: 0;
+    -webkit-flex-shrink: 0;
+        -ms-flex-negative: 0;
+            flex-shrink: 0;
+    max-width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .user-registration-profile-fields__field-wrapper .ur-form-row .ur-form-grid .ur-field-item {
+    -webkit-flex-basis: 50%;
+        -ms-flex-preferred-size: 50%;
+            flex-basis: 50%;
+    -webkit-box-flex: 0;
+    -webkit-flex-grow: 0;
+       -moz-box-flex: 0;
+        -ms-flex-positive: 0;
+            flex-grow: 0;
+    -webkit-flex-shrink: 0;
+        -ms-flex-negative: 0;
+            flex-shrink: 0;
+    max-width: 50%;
+    padding-left: 10px;
+    padding-right: 10px; }
+
+  @media (max-width: 1199px) {
+    #user-registration.user-registration.vertical .user-registration-MyAccount-content .user-registration-profile-fields__field-wrapper .ur-form-row .ur-form-grid .ur-field-item {
+      -webkit-flex-basis: 100%;
+          -ms-flex-preferred-size: 100%;
+              flex-basis: 100%;
+      max-width: 100%; } }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .user-registration-profile-fields__field-wrapper .ur-form-row .ur-form-grid .ur-field-item .form-row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+       -moz-box-orient: vertical;
+       -moz-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .user-registration-profile-fields__field-wrapper .ur-form-row .ur-form-grid .ur-field-item .form-row .ur-label {
+    color: #5b6770;
+    font-size: 14px;
+    font-family: 'GreycliffCF-Medium', sans-serif;
+    font-weight: normal;
+    line-height: 24px;
+    margin-bottom: 5px; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .user-registration-profile-fields__field-wrapper .ur-form-row .ur-form-grid .ur-field-item .form-row .ur-label .required {
+    color: #e33a5b; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .user-registration-profile-fields__field-wrapper .ur-form-row .ur-form-grid .ur-field-item .form-row .description {
+    color: #5b6770;
+    font-size: 14px;
+    font-family: 'GreycliffCF-Medium', sans-serif;
+    font-weight: normal;
+    line-height: 24px;
+    text-align: right;
+    margin-top: 5px; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .user-registration-profile-fields__field-wrapper .ur-form-row .ur-form-grid .ur-field-item .form-row .input-text {
+    border: solid 1px #bdc2c6;
+    -webkit-border-radius: 3px;
+       -moz-border-radius: 3px;
+            border-radius: 3px;
+    color: #3c4146;
+    font-size: 16px;
+    font-family: 'GreycliffCF-Medium', sans-serif;
+    font-weight: normal;
+    height: 48px;
+    margin-bottom: 0;
+    padding: 10px 15px;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .user-registration-profile-fields__field-wrapper .ur-form-row .ur-form-grid .ur-field-item .form-row .input-text::-webkit-input-placeholder {
+    color: #bdc2c6;
+    opacity: 1; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .user-registration-profile-fields__field-wrapper .ur-form-row .ur-form-grid .ur-field-item .form-row .input-text:-webkit-input-placeholder {
+    color: #bdc2c6;
+    opacity: 1; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .user-registration-profile-fields__field-wrapper .ur-form-row .ur-form-grid .ur-field-item .form-row .input-text::-moz-placeholder {
+    color: #bdc2c6;
+    opacity: 1; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .user-registration-profile-fields__field-wrapper .ur-form-row .ur-form-grid .ur-field-item .form-row .input-text:-moz-placeholder {
+    color: #bdc2c6;
+    opacity: 1; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .user-registration-profile-fields__field-wrapper .ur-form-row .ur-form-grid .ur-field-item .form-row .input-text::-ms-input-placeholder {
+    color: #bdc2c6;
+    opacity: 1; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .user-registration-profile-fields__field-wrapper .ur-form-row .ur-form-grid .ur-field-item .form-row .input-text:-ms-input-placeholder {
+    color: #bdc2c6;
+    opacity: 1; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .user-registration-profile-fields__field-wrapper .ur-form-row .ur-form-grid .ur-field-item .form-row .input-text:focus {
+    border-color: #e33a5b; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .ur-frontend-form {
+    padding: 0; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .ur-frontend-form .user-registration-EditAccountForm.edit-password {
+    max-width: 50%;
+    padding-left: 0;
+    padding-right: 0; }
+
+  @media (max-width: 1199px) {
+    #user-registration.user-registration.vertical .user-registration-MyAccount-content .ur-frontend-form .user-registration-EditAccountForm.edit-password {
+      max-width: 100%; } }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .ur-frontend-form .user-registration-EditAccountForm.edit-password .ur-form-row .ur-form-grid {
+    padding: 0; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .ur-frontend-form .user-registration-EditAccountForm.edit-password .ur-form-row .ur-form-grid p {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+       -moz-box-orient: horizontal;
+       -moz-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-bottom: 0;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+       -moz-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .ur-frontend-form .user-registration-EditAccountForm.edit-password .ur-form-row .ur-form-grid p .user-registration-Button.button {
+    margin: 0; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .ur-frontend-form .user-registration-EditAccountForm.edit-password .ur-form-row .ur-form-grid fieldset legend {
+    color: #5b6770;
+    font-size: 30px;
+    font-family: 'GreycliffCF-ExtraBold', sans-serif;
+    font-weight: normal;
+    line-height: 1;
+    margin-bottom: 25px;
+    text-transform: capitalize; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .ur-frontend-form .user-registration-EditAccountForm.edit-password .ur-form-row .ur-form-grid fieldset .user-registration-form-row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+       -moz-box-orient: vertical;
+       -moz-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 30px;
+    margin-left: 0;
+    margin-right: 0; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .ur-frontend-form .user-registration-EditAccountForm.edit-password .ur-form-row .ur-form-grid fieldset .user-registration-form-row label {
+    color: #5b6770;
+    font-size: 14px;
+    font-family: 'GreycliffCF-Medium', sans-serif;
+    font-weight: normal;
+    line-height: 24px;
+    margin-bottom: 5px;
+    text-transform: capitalize; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .ur-frontend-form .user-registration-EditAccountForm.edit-password .ur-form-row .ur-form-grid fieldset .user-registration-form-row label .required {
+    color: #e33a5b; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .ur-frontend-form .user-registration-EditAccountForm.edit-password .ur-form-row .ur-form-grid fieldset .user-registration-form-row .user-registration-Input {
+    border: solid 1px #bdc2c6;
+    -webkit-border-radius: 3px;
+       -moz-border-radius: 3px;
+            border-radius: 3px;
+    color: #3c4146;
+    font-size: 16px;
+    font-family: 'GreycliffCF-Medium', sans-serif;
+    font-weight: normal;
+    height: 48px;
+    margin-bottom: 0;
+    padding: 10px 15px;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .ur-frontend-form .user-registration-EditAccountForm.edit-password .ur-form-row .ur-form-grid fieldset .user-registration-form-row .user-registration-Input::-webkit-input-placeholder {
+    color: #bdc2c6;
+    opacity: 1; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .ur-frontend-form .user-registration-EditAccountForm.edit-password .ur-form-row .ur-form-grid fieldset .user-registration-form-row .user-registration-Input:-webkit-input-placeholder {
+    color: #bdc2c6;
+    opacity: 1; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .ur-frontend-form .user-registration-EditAccountForm.edit-password .ur-form-row .ur-form-grid fieldset .user-registration-form-row .user-registration-Input::-moz-placeholder {
+    color: #bdc2c6;
+    opacity: 1; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .ur-frontend-form .user-registration-EditAccountForm.edit-password .ur-form-row .ur-form-grid fieldset .user-registration-form-row .user-registration-Input:-moz-placeholder {
+    color: #bdc2c6;
+    opacity: 1; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .ur-frontend-form .user-registration-EditAccountForm.edit-password .ur-form-row .ur-form-grid fieldset .user-registration-form-row .user-registration-Input::-ms-input-placeholder {
+    color: #bdc2c6;
+    opacity: 1; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .ur-frontend-form .user-registration-EditAccountForm.edit-password .ur-form-row .ur-form-grid fieldset .user-registration-form-row .user-registration-Input:-ms-input-placeholder {
+    color: #bdc2c6;
+    opacity: 1; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .ur-frontend-form .user-registration-EditAccountForm.edit-password .ur-form-row .ur-form-grid fieldset .user-registration-form-row .user-registration-Input:focus {
+    border-color: #e33a5b; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .profile-edit,
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .profile-logout {
+    color: #5b6770;
+    font-size: 16px;
+    font-family: 'GreycliffCF-Medium', sans-serif;
+    font-weight: normal;
+    line-height: 24px;
+    margin-bottom: 15px; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .profile-edit a,
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .profile-logout a {
+    color: #e33a5c;
+    font-family: 'GreycliffCF-Bold', sans-serif;
+    font-weight: normal;
+    text-transform: capitalize;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .profile-edit a:hover,
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .profile-logout a:hover {
+    color: #e33a5b;
+    text-decoration: underline; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .profile-edit strong,
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .profile-logout strong {
+    font-family: 'GreycliffCF-Bold', sans-serif;
+    font-weight: normal; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .profile-edit {
+    border-bottom: solid 1px rgba(189, 194, 198, 0.5);
+    padding-bottom: 20px; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .account-orders-table {
+    overflow: hidden;
+    width: 100%; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .account-orders-table thead tr th {
+    background-color: rgba(91, 103, 112, 0.2);
+    color: #5b6770;
+    font-size: 16px;
+    font-family: 'GreycliffCF-ExtraBold', sans-serif;
+    font-weight: normal;
+    line-height: 20px;
+    padding: 8px 20px;
+    text-transform: capitalize; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .account-orders-table thead tr th:last-child {
+    text-align: right; }
+
+  @media (max-width: 1199px) {
+    #user-registration.user-registration.vertical .user-registration-MyAccount-content .account-orders-table thead {
+      left: 0;
+      margin: -9999px;
+      position: absolute;
+      top: 0; } }
+
+  @media (max-width: 1199px) {
+    #user-registration.user-registration.vertical .user-registration-MyAccount-content .account-orders-table tbody {
+      display: block !important; } }
+
+  @media (max-width: 1199px) {
+    #user-registration.user-registration.vertical .user-registration-MyAccount-content .account-orders-table tbody tr {
+      display: -webkit-box !important;
+      display: -webkit-flex !important;
+      display: -moz-box !important;
+      display: -ms-flexbox !important;
+      display: flex !important;
+      -webkit-box-orient: vertical !important;
+      -webkit-box-direction: normal !important;
+      -webkit-flex-direction: column !important;
+         -moz-box-orient: vertical !important;
+         -moz-box-direction: normal !important;
+          -ms-flex-direction: column !important;
+              flex-direction: column !important; } }
+
+  @media (max-width: 1199px) {
+    #user-registration.user-registration.vertical .user-registration-MyAccount-content .account-orders-table tbody tr:not(:last-child) {
+      border-bottom: 5px solid white; } }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .account-orders-table tbody tr td {
+    background-color: #f5f5f5;
+    border-top: 5px solid white;
+    color: #5b6770;
+    font-size: 16px;
+    font-family: 'GreycliffCF-Medium', sans-serif;
+    font-weight: normal;
+    line-height: 20px;
+    padding: 20px; }
+
+  @media (max-width: 1199px) {
+    #user-registration.user-registration.vertical .user-registration-MyAccount-content .account-orders-table tbody tr td {
+      border: none;
+      padding: 8px 8px 8px 70px;
+      position: relative;
+      text-align: right; } }
+
+  @media (max-width: 1199px) {
+    #user-registration.user-registration.vertical .user-registration-MyAccount-content .account-orders-table tbody tr td:not(:last-child) {
+      border-bottom: 1px solid #bdc2c6; } }
+
+  @media (max-width: 1199px) {
+    #user-registration.user-registration.vertical .user-registration-MyAccount-content .account-orders-table tbody tr td:before {
+      color: #5b6770;
+      content: attr(data-title);
+      font-size: 16px;
+      font-family: 'GreycliffCF-ExtraBold', sans-serif;
+      font-weight: normal;
+      line-height: 20px;
+      left: 8px;
+      position: absolute;
+      top: 8px; } }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .account-orders-table tbody tr td.woocommerce-orders-table__cell-order-actions {
+    text-align: right;
+    white-space: nowrap; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .account-orders-table tbody tr td.woocommerce-orders-table__cell-order-actions .woocommerce-button {
+    background-color: white;
+    -webkit-border-radius: 3px;
+       -moz-border-radius: 3px;
+            border-radius: 3px;
+    -webkit-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.04);
+       -moz-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.04);
+            box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.04);
+    color: #e33a5b;
+    display: inline-block;
+    font-size: 14px;
+    font-family: 'GreycliffCF-Bold', sans-serif;
+    font-weight: normal;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    text-transform: capitalize;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+    width: 80px; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .account-orders-table tbody tr td.woocommerce-orders-table__cell-order-actions .woocommerce-button:not(:last-child) {
+    margin-right: 10px; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .account-orders-table tbody tr td.woocommerce-orders-table__cell-order-actions .woocommerce-button:hover {
+    background-color: #e33a5b;
+    color: white; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .woocommerce-order-details {
+    float: left;
+    width: 50%; }
+
+  @media (max-width: 1023px) {
+    #user-registration.user-registration.vertical .user-registration-MyAccount-content .woocommerce-order-details {
+      width: 100%; } }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .woocommerce-customer-details {
+    float: left;
+    padding-left: 30px;
+    width: 50%; }
+
+  @media (max-width: 1023px) {
+    #user-registration.user-registration.vertical .user-registration-MyAccount-content .woocommerce-customer-details {
+      padding-left: 0;
+      width: 100%; } }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .woocommerce-order-details h2,
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .woocommerce-customer-details h2 {
+    color: #5b6770;
+    font-size: 22px;
+    font-family: 'GreycliffCF-Bold', sans-serif;
+    font-weight: normal;
+    line-height: 30px;
+    margin-bottom: 10px;
+    text-transform: capitalize; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .woocommerce-order-details .woocommerce-table--order-details,
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .woocommerce-customer-details .woocommerce-table--order-details {
+    margin-bottom: 30px;
+    overflow: hidden;
+    width: 100%; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .woocommerce-order-details .woocommerce-table--order-details thead,
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .woocommerce-customer-details .woocommerce-table--order-details thead {
+    left: 0;
+    margin: -9999px;
+    position: absolute;
+    top: 0; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .woocommerce-order-details .woocommerce-table--order-details tbody tr th,
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .woocommerce-order-details .woocommerce-table--order-details tbody tr td,
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .woocommerce-order-details .woocommerce-table--order-details tfoot tr th,
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .woocommerce-order-details .woocommerce-table--order-details tfoot tr td,
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .woocommerce-customer-details .woocommerce-table--order-details tbody tr th,
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .woocommerce-customer-details .woocommerce-table--order-details tbody tr td,
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .woocommerce-customer-details .woocommerce-table--order-details tfoot tr th,
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .woocommerce-customer-details .woocommerce-table--order-details tfoot tr td {
+    color: #5b6770;
+    font-size: 16px;
+    font-family: 'GreycliffCF-Medium', sans-serif;
+    font-weight: normal;
+    line-height: 20px;
+    padding: 8px 0; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .woocommerce-order-details .woocommerce-table--order-details tbody tr th:last-child,
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .woocommerce-order-details .woocommerce-table--order-details tbody tr td:last-child,
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .woocommerce-order-details .woocommerce-table--order-details tfoot tr th:last-child,
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .woocommerce-order-details .woocommerce-table--order-details tfoot tr td:last-child,
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .woocommerce-customer-details .woocommerce-table--order-details tbody tr th:last-child,
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .woocommerce-customer-details .woocommerce-table--order-details tbody tr td:last-child,
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .woocommerce-customer-details .woocommerce-table--order-details tfoot tr th:last-child,
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .woocommerce-customer-details .woocommerce-table--order-details tfoot tr td:last-child {
+    text-align: right; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .woocommerce-order-details .woocommerce-table--order-details tfoot tr:first-child th,
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .woocommerce-order-details .woocommerce-table--order-details tfoot tr:first-child td,
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .woocommerce-customer-details .woocommerce-table--order-details tfoot tr:first-child th,
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .woocommerce-customer-details .woocommerce-table--order-details tfoot tr:first-child td {
+    padding-bottom: 20px; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .woocommerce-order-details .woocommerce-table--order-details tfoot tr:last-child th,
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .woocommerce-order-details .woocommerce-table--order-details tfoot tr:last-child td,
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .woocommerce-customer-details .woocommerce-table--order-details tfoot tr:last-child th,
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .woocommerce-customer-details .woocommerce-table--order-details tfoot tr:last-child td {
+    border-top: 1px solid rgba(91, 103, 112, 0.5);
+    color: #5b6770;
+    font-size: 22px;
+    font-family: 'GreycliffCF-Bold', sans-serif;
+    font-weight: normal;
+    line-height: 25px;
+    padding-top: 20px; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .woocommerce-order-details .order-again,
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .woocommerce-customer-details .order-again {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+       -moz-box-orient: horizontal;
+       -moz-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+       -moz-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    margin-bottom: 30px; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .woocommerce-order-details .order-again .button,
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .woocommerce-customer-details .order-again .button {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: white;
+    border: 1px solid rgba(91, 103, 112, 0.5);
+    -webkit-border-radius: 3px;
+       -moz-border-radius: 3px;
+            border-radius: 3px;
+    -webkit-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.04);
+       -moz-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.04);
+            box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.04);
+    color: #e33a5b;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+       -moz-box-orient: horizontal;
+       -moz-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    font-size: 14px;
+    font-family: 'GreycliffCF-Bold', sans-serif;
+    font-weight: normal;
+    height: 35px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+       -moz-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    line-height: 35px;
+    padding: 5px 25px;
+    text-align: center;
+    text-transform: capitalize;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .woocommerce-order-details .order-again .button:hover,
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .woocommerce-customer-details .order-again .button:hover {
+    background-color: #e33a5b;
+    border-color: #e33a5b;
+    color: white; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .woocommerce-order-details address,
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .woocommerce-customer-details address {
+    color: #5b6770;
+    font-size: 16px;
+    font-family: 'GreycliffCF-Medium', sans-serif;
+    font-weight: normal;
+    line-height: 20px;
+    margin-bottom: 30px; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .woocommerce-Message.woocommerce-Message--info.woocommerce-info {
+    background-color: rgba(128, 160, 180, 0.1);
+    border-top: none;
+    color: #3c4146;
+    font-size: 16px;
+    font-family: 'GreycliffCF-Medium', sans-serif;
+    font-weight: normal;
+    line-height: 30px;
+    margin-bottom: 55px;
+    padding: 20px 15px 20px 70px;
+    position: relative; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .woocommerce-Message.woocommerce-Message--info.woocommerce-info:before {
+    color: #80a0b4;
+    top: 20px; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .woocommerce-Message.woocommerce-Message--info.woocommerce-info .woocommerce-Button.button {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: white;
+    border: 1px solid rgba(91, 103, 112, 0.5);
+    -webkit-border-radius: 3px;
+       -moz-border-radius: 3px;
+            border-radius: 3px;
+    -webkit-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.04);
+       -moz-box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.04);
+            box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.04);
+    color: #e33a5b;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+       -moz-box-orient: horizontal;
+       -moz-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    font-size: 14px;
+    font-family: 'GreycliffCF-Bold', sans-serif;
+    font-weight: normal;
+    height: 35px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+       -moz-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    left: 0;
+    line-height: 35px;
+    margin-top: 20px;
+    padding: 5px 25px;
+    position: absolute;
+    text-align: center;
+    text-transform: capitalize;
+    top: 100%;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -o-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s; }
+
+  #user-registration.user-registration.vertical .user-registration-MyAccount-content .woocommerce-Message.woocommerce-Message--info.woocommerce-info .woocommerce-Button.button:hover {
+    background-color: #e33a5b;
+    border-color: #e33a5b;
+    color: white; }
+
+/* Dashboard end */
+/* Dashbaord message for logout */
+body.user-registration-user-logout .page-content #user-registration .user-registration-message {
+	border-color: #e33a5b;
+	color: #e33a5b;
+}
+
+body.user-registration-user-logout .page-content #user-registration .user-registration-message:before {
+	color: #e33a5b;
+}
+
+/* Dashbaord message for logout end */
+/* Change Password */
+body{
+	&.user-registration-edit-password{
+		.page-content{
+			#user-registration{
+				.user-registration-error{
+					padding-left: 53px;
+					position: relative;
+					&:before{
+						left: 15px;
+						position: absolute;
+						top: 10px;
+					}
+				}
+				.user-registration-MyAccount-content{
+					.ur-frontend-form{
+						.user-registration-EditAccountForm{
+							&.edit-password{
+								.ur-form-row{
+									.ur-form-grid{
+										fieldset{
+											.user-registration-form-row{
+												label{
+													position: relative;
+													&:after{
+														color: #e33a5b;
+														content: '*';
+														font-size: 14px;
+														@include font-GreycliffCF-Medium;
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+/* Change Password end */
+/* Edit Address */
+body{
+	&.woocommerce-edit-address{
+		.page-content{
+			#user-registration{
+				.user-registration-error{
+					padding-left: 53px;
+					position: relative;
+					&:before{
+						left: 15px;
+						position: absolute;
+						top: 10px;
+					}
+				}
+				.user-registration-MyAccount-content{
+					p{
+						background-color: rgba(#80a0b4, 0.1);
+						color: #3c4146;
+						font-size: 16px;
+						@include font-GreycliffCF-Medium;
+						line-height: 30px;
+						margin-bottom: 25px;
+						padding: 15px;
+					}
+					.u-columns{
+						display: flex;
+						flex-wrap: wrap;
+						margin-left: -15px;
+						margin-right: -15px;
+						width: auto;
+						.woocommerce-Address{
+							flex-basis: 50%;
+							flex-grow: 0;
+							flex-shrink: 0;
+							margin-bottom: 55px;
+							max-width: 50%;
+							padding-left: 15px;
+							padding-right: 15px;
+							position: relative;
+							@media (max-width: 1023px){
+								flex-basis: 100%;
+								max-width: 100%;
+							}
+							&:first-child{
+								@media (max-width: 1023px){
+									margin-bottom: 85px;
+								}
+							}
+							.woocommerce-Address-title{
+								h3{
+									color: #5b6770;
+									font-size: 22px;
+									@include font-GreycliffCF-Bold;
+									line-height: 30px;
+									margin-bottom: 10px;
+									text-transform: capitalize;
+								}
+								a{
+									align-items: center;
+									background-color: white;
+									border: 1px solid rgba(91, 103, 112, 0.5);
+									border-radius: 3px;
+									box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.04);
+									color: #e33a5b;
+									display: flex;
+									flex-direction: row;
+									font-size: 14px;
+									font-family: 'GreycliffCF-Bold', sans-serif;
+									font-weight: normal;
+									height: 35px;
+									justify-content: center;
+									left: 15px;
+									line-height: 35px;
+									padding: 5px 25px;
+									position: absolute;
+									text-align: center;
+									text-transform: capitalize;
+									top: 100%;
+									transition: all 0.3s ease-in-out 0s;
+									&:hover{
+										background-color: #e33a5b;
+										border-color: #e33a5b;
+										color: white;
+									}
+								}
+							}
+							address{
+								color: #5b6770;
+								font-size: 16px;
+								@include font-GreycliffCF-Medium;
+								margin-bottom: 20px;
+							}
+						}
+					}
+					form{
+						h3{
+							color: #5b6770;
+							font-size: 30px;
+							@include font-GreycliffCF-ExtraBold;
+							line-height: 35px;
+							margin-bottom: 25px;
+							text-transform: capitalize;
+						}
+						p{
+							display: flex;
+							flex-direction: row;
+							justify-content: flex-end;
+							line-height: 1;
+							margin: 0;
+							padding: 0;
+						}
+						.woocommerce-address-fields{
+							.woocommerce-address-fields__field-wrapper{
+								display: flex;
+								flex-wrap: wrap;
+								margin-left: -10px;
+								margin-right: -10px;
+								.form-row{
+									flex-basis: 50%;
+									display: flex;
+									flex-direction: column;
+									flex-grow: 0;
+									flex-shrink: 0;
+									justify-content: flex-end;
+									margin-bottom: 30px;
+									max-width: 50%;
+									padding-left: 10px;
+									padding-right: 10px;
+									@media (max-width: 1023px){
+										flex-basis: 100%;
+										max-width: 100%;
+									}
+									&.validate-email{
+										flex-basis: 100%;
+										max-width: 100%;
+									}
+									label{
+										color: #5b6770;
+										font-size: 14px;
+										@include font-GreycliffCF-Medium;
+										line-height: 24px;
+										margin-bottom: 10px;
+										.required{
+											color: #e33a5b;
+											display: inline-block;
+											@include font-GreycliffCF-Bold;
+											text-decoration: none;
+										}
+									}
+									.woocommerce-input-wrapper{
+										display: block;
+										strong{
+											align-items: center;
+											background-color: white;
+											border: solid 1px #bdc2c6;
+											border-radius: 3px;
+											box-shadow: none;
+											color: #3c4146;
+											display: flex;
+											font-size: 16px;
+											font-family: 'GreycliffCF-Medium', sans-serif;
+											font-weight: normal;
+											height: 48px;
+											outline: none;
+											margin-bottom: 0;
+											padding: 10px 15px;
+											width: 100%;
+										}
+										.input-text{
+											background-color: white;
+											border: solid 1px #bdc2c6;
+											border-radius: 3px;
+											box-shadow: none;
+											color: #3c4146;
+											font-size: 16px;
+											font-family: 'GreycliffCF-Medium', sans-serif;
+											font-weight: normal;
+											height: 48px;
+											outline: none;
+											margin-bottom: 0;
+											padding: 10px 15px;
+											transition: all 0.3s ease-in-out 0s;
+											&:focus{
+												border-color: #e33a5b;
+												outline: none;
+											}
+											&::-webkit-input-placeholder{
+												color: #bdc2c6;
+												opacity: 1;
+											}
+											&:-webkit-input-placeholder{
+												color: #bdc2c6;
+												opacity: 1;
+											}
+											&::-moz-placeholder{
+												color: #bdc2c6;
+												opacity: 1;
+											}
+											&:-moz-placeholder{
+												color: #bdc2c6;
+												opacity: 1;
+											}
+											&::-ms-input-placeholder{
+												color: #bdc2c6;
+												opacity: 1;
+											}
+											&:-ms-input-placeholder{
+												color: #bdc2c6;
+												opacity: 1;
+											}
+										}
+										.select2-hidden-accessible{
+											display: none !important;
+											
+										}
+										.select2-container{
+											.selection{
+												.select2-selection{
+													&.select2-selection--single{
+														border: 1px solid #bdc2c6;
+														border-radius: 3px;
+														outline: none;
+														padding: 9px 30px 9px 15px;
+														.select2-selection__rendered{
+															color: #3c4146;
+															font-size: 16px;
+															font-family: 'GreycliffCF-Medium', sans-serif;
+															font-weight: normal;
+															padding: 0;
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+/* Edit Address end */
